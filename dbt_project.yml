@@ -16,6 +16,7 @@ macro-paths:
 - macros
 target-path: ../build
 log-path: ../logs
+modules-path: ../dbt_modules
 packages-install-path: /dbt
 clean-targets:
 - build
