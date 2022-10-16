@@ -30,7 +30,7 @@ models:
     generated:
       airbyte_ctes:
         +tags: airbyte_internal_cte
-        +materialized: ephemeral
+        +materialized: table
       airbyte_incremental:
         +tags: incremental_tables
         +materialized: incremental
