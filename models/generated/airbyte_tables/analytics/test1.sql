@@ -7,7 +7,7 @@
 -- Final base SQL model
 -- depends_on: {{ ref('test1_ab3') }}
 select
-    org_urn orgurn,
+    org_urn as orgurn,
     time_stamp,
     subscription_urn,
     _airbyte_ab_id,
