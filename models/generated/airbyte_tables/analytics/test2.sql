@@ -7,6 +7,6 @@ select
     org_urn as orgUrn,
     time_stamp,
     subscription_urn as subUrn
-from _airbyte_raw_test1
+from analytics._airbyte_raw_test1
 where 1 = 1
 
