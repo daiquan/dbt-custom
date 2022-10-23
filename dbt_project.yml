@@ -41,3 +41,4 @@ vars:
     test1_ab2: analytics._airbyte_raw_test1
     test1_ab3: analytics._airbyte_raw_test1
     test1: analytics._airbyte_raw_test1
+    test2: analytics._airbyte_raw_test2
