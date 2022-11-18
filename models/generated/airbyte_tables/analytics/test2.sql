@@ -7,6 +7,6 @@ select
     org_urn as orgUrn,
     time_stamp,
     subscription_urn as subUrn
-from analytics.test1
+from analytics.test
 where 1 = 1
 
