@@ -6,11 +6,11 @@ config:
 normalize:
   outputs:
     prod:
-      dbname: cmp-datamart-dbpgs-dev
-      host: cmp-datamart-dbpgs-dev.cmp-datamart-pgs-dev.svc.cluster.local
-      pass: P9Vt7nhE4LgjV40
+      dbname: postgres
+      host: localhost
+      pass: postgres
       port: 5432
-      schema: analytics
+      schema: public
       threads: 8
       type: postgres
       user: postgres
